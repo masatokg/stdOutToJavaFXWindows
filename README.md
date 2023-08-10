@@ -1,0 +1,2 @@
+# stdOutToJavaFXWindows
+Javaの結果を画面で表示するプログラムひながた
