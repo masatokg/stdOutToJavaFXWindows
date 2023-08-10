@@ -26,14 +26,14 @@ public class MainWindow extends Application {
         // 標準出力を文字列に変換
         String msg = bos.toString();
         // 文字列をラベルにセット
-        Label lable01 = new Label(msg);
+        Label label01 = new Label(msg);
         // ラベルつきのシーンを作成
-        Scene scene = new Scene(new StackPane(lable01), 640, 480);
+        Scene scene = new Scene(new StackPane(label01), 640, 480);
         // シーンをステージにセットして表示
         stage.setScene(scene);
         stage.show();
         // 標準出力を元に戻す
-        this.setStandartOutStream();
+        this.setStandardOutStream();
     }
     // 標準出力をオブジェクトにフックしてオブジェクトを返す
     private ByteArrayOutputStream setTextPrintStream(){
@@ -44,7 +44,7 @@ public class MainWindow extends Application {
         return bos;
     }
     // 標準出力を元に戻す
-    private void setStandartOutStream(){
+    private void setStandardOutStream(){
         PrintStream stdout = System.out;
         System.setOut(stdout);
     }
