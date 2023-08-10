@@ -19,6 +19,7 @@ LogicBoardクラス側でmainエントリーポイントメソッド内の処理
 注意：
 VScodeでJavaがコンパイルできる環境が前提です。
 JDKは、JavaFXが同梱されている、LibericaJDKを使いましょう。魔法のように手軽にJavaFXが使えます。
-JDKとJavaFXJDKをそれぞれ用意すると、微妙なバージョン違いのエラーに苦しむ場合があります。
-https://bell-sw.com/pages/downloads/
-https://blogs.osdn.jp/2019/07/26/liberica-jdk-javafx.html
+JDKとJavaFXJDKをそれぞれ用意すると、微妙なバージョン違いのエラーに苦しむ場合があります。<br>
+-- 参考 -- 
+1. https://bell-sw.com/pages/downloads/
+1. https://blogs.osdn.jp/2019/07/26/liberica-jdk-javafx.html
