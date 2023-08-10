@@ -21,4 +21,4 @@ VScodeでJavaがコンパイルできる環境が前提です。
 JDKは、JavaFXが同梱されている、LibericaJDKを使いましょう。魔法のように手軽にJavaFXが使えます。
 JDKとJavaFXJDKをそれぞれ用意すると、微妙なバージョン違いのエラーに苦しむ場合があります。
 https://bell-sw.com/pages/downloads/
-https://blogs.osdn.jp/2019/07/26/liberica-jdk-javafx.html JDK
+https://blogs.osdn.jp/2019/07/26/liberica-jdk-javafx.html
